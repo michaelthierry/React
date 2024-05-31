@@ -4,6 +4,7 @@ import './components/HelloWorld'
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import Frase from './components/Frase';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <p>Olá {nome}, seja bem vindo</p>
       <p>Soma: {soma(1, 3)}</p>
       <HelloWorld/>
+      <Frase/>
       <SayMyName nome = "Maria"/>
       <SayMyName nome={nome}/>
       <Pessoa 
