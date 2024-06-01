@@ -1,15 +1,14 @@
 //import logo from './logo.svg';
 import './App.css';
-import Evento from "./components/Evento"
-import Form from "./components/Form"
+import Condicional from './components/Condicional';
+
 
 function App() {
   
   return (
     <div className="App">
-      <h2>Testando evento</h2>
-      <Evento />
-      <Form/>
+      <h2>Renderização condicional</h2>
+      <Condicional/>      
     </div>
   );
 }
